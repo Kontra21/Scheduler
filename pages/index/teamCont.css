@@ -1,0 +1,135 @@
+#teamsContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-top: 10px;
+    height: 85%;
+}
+
+.team {
+    background: #e0dbd8;
+    height: 100%;
+    margin: 5px;
+    overflow: scroll;
+    box-shadow: 2px 2px 1px #000000;
+}
+.team::-webkit-scrollbar { width: 0 !important }
+
+.teamContainer {
+    flex: 1;
+}
+
+#name {
+    height: 46px;
+    display: inline-block;
+    padding: 0;
+    font-size: 20px;
+    flex: 2;
+}
+
+.time {
+    display: inline-block;
+    margin: 0px 10px;
+    flex: 1;
+}
+
+.time input{
+    height: 21px;
+    padding: 0;
+    width: 35px;
+    font-weight: bold;
+}
+
+.time label {
+    text-align: center;
+}
+
+.employee {
+    display: flex;
+    flex-wrap: wrap;
+    padding:5px;
+    margin: 5px;
+    border-bottom: 1px solid grey;
+    background: #fcfcfc;
+    box-shadow: 2px 2px 5px #000000;
+}
+
+.delEmp {
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.daysWorking {
+    flex: 2;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.cbContainer {
+    flex:1;
+}
+
+/* Customize the label (the container) */
+.container {
+    display: inline-block;
+    position: relative;
+    padding-top: 20px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+    width: 25px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  /* Hide the browser's default checkbox */
+  .container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  
+  /* Create a custom checkbox */
+  .checkmark {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 5px;
+    height: 15px;
+    width: 15px;
+    background-color: #eee;
+  }
+  
+  /* On mouse-over, add a grey background color */
+  .container:hover input ~ .checkmark {
+    background-color: #ccc;
+  }
+  
+  /* When the checkbox is checked, add a blue background */
+  .container input:checked ~ .checkmark {
+    background-color: #2196F3;
+  }
+  
+  /* Create the checkmark/indicator (hidden when not checked) */
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  /* Show the checkmark when checked */
+  .container input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  /* Style the checkmark/indicator */

@@ -1,0 +1,59 @@
+@media screen and (max-width: 1010px){
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body {
+    background-color: #283f57;
+    justify-content: center;
+}
+
+#btnSave {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+.btnPanel {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.btnPanel button {
+    background-color:#3f0054;
+	-moz-border-radius:8px;
+	-webkit-border-radius:8px;
+    border-radius:8px;
+    border:none;
+    display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:20px;
+    font-weight:bold;
+    padding:5px;
+	text-decoration:none;
+}
+
+.btnPanel button:hover {
+	background-color:#408c99;
+}
+
+#btnSave {
+    background-color:#3f0054;
+	-moz-border-radius:8px;
+	-webkit-border-radius:8px;
+    border-radius:100%;
+    border:none;
+    display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:20px;
+    font-weight:bold;
+	text-decoration:none;
+}

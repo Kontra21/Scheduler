@@ -1,0 +1,87 @@
+html::-webkit-scrollbar { width: 0 !important }
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.dataColH {
+    width: 4%;
+    text-align: center;
+}
+
+.dataCol {
+    color: black !important;
+}
+
+
+#table {
+    height: auto !important;
+    min-height: 100%;
+}
+
+
+table.steelBlueCols {
+    height: auto;
+    min-height: 100%;
+    background-color: #555555;
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+    position: absolute;
+}
+
+table.steelBlueCols td,
+table.steelBlueCols th {
+    /* border: 1px solid #555555; */
+    padding: 5px 10px;
+}
+
+table.steelBlueCols tbody td {
+    font-size: 12px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+table.steelBlueCols td:nth-child(even) {
+    background: #3f0054;
+}
+
+table.steelBlueCols thead {
+    background: #3f0054;
+    border-bottom: 10px solid #3f0054;
+}
+
+table.steelBlueCols thead th {
+    font-size: 15px;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-align: left;
+    border-left: 2px solid #3f0054;
+}
+
+table.steelBlueCols thead th:first-child {
+    border-left: none;
+}
+
+table.steelBlueCols tfoot td {
+    font-size: 13px;
+}
+
+table.steelBlueCols tfoot .links {
+    text-align: right;
+}
+
+table.steelBlueCols tfoot .links a {
+    display: inline-block;
+    background: #FFFFFF;
+    color: #3f0054;
+    padding: 2px 8px;
+    border-radius: 5px;
+}

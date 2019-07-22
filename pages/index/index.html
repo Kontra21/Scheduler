@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Scheduler</title>
+  <script>
+    window.$ = window.jQuery = require('jquery');
+  </script>
+  <link href='./index.css' rel="stylesheet">
+  <link href='./teamCont.css' rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+
+</head>
+
+<body>
+  <div class='btnPanel'>
+    <button id="addTeam">Add Team</button>
+  </div>
+  <div id='teamsContainer'>
+  </div>
+</body>
+<script>
+    // You can also require other files to run in this process
+    require('./index.js')
+  </script>
+  <script src='slides.js'></script>
+</html>
